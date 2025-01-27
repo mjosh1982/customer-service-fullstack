@@ -64,7 +64,7 @@ jobs:
           deployment_package: backend/Dockerrun.aws.json
       - name: Commit and push Dockerrun.aws.json
         env:
-          GH_PAT: ${{ secrets.GH_PAT }}
+          GH_PAT: ${{ secrets.GH_PAT1 }}
         run: |
           echo $GH_PAT
           git config user.name github-actions
