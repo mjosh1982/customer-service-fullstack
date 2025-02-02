@@ -3,7 +3,7 @@
   "containerDefinitions": [
     {
       "name": "customer-service",
-      "image": "manojoshi1982/customer-service:20250202171239",
+      "image": "manojoshi1982/customer-service:20250202171828",
       "essential": true,
       "memory": 512,
       "portMappings": [
